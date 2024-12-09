@@ -1,0 +1,1481 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(	12,	12,	12);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+p{
+    color: white;
+    cursor: default;
+}
+#Container{
+    height: 15000px;
+    width: 98vw;
+
+}
+img{
+    border-radius: 12px;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.263));
+}
+/*NAVBARS*/
+#Navigator{
+    height: 58px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 64px;
+    padding-right: 64px;
+    border-style: solid;
+    border-color: rgba(227, 227, 227, 0.493);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    
+}
+.navitems{
+    height: 58px;
+    margin: 0;
+    padding: 0;
+    width: 466px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-peeps{
+    margin: 0 20px;
+    cursor: pointer;
+}
+#nav-thebig4{
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+#rightnavmemories{
+    font-weight: bold;
+    cursor: pointer;
+}
+/*End of navigator*/
+/*Landingpage*/
+#landingcontent{
+    width: 98vw;
+    height: 87vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+#THEBIG4img{
+    width: 352.5px;
+    border-radius: 12px;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.263));
+}
+#leftsidelanding{
+    height: 87vh;
+    margin: 0;
+    padding: 0;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 64px;
+}
+#rightsidelanding{
+    margin: 0;
+    padding: 0;
+    height: 87vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#THEBIG4landingbig{
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin-top: 132px;
+}
+#landingwords {
+    text-align: center;
+}
+#exploreourfs{
+    margin-top: 117px;
+    margin-bottom: 0;
+}
+/*End of Landingpage*/
+/*Explorepart*/
+#firstexplore{
+    width: 78vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#firstexplorepic{
+    width: 472px;
+    margin-right: 10vw;
+}
+#firstexploretext{
+    text-align: center;
+}
+#secondexplore{
+    width: 78vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#secondexplorepic{
+    width: 421px;
+    margin-left: 10vw;
+}
+#secondexploretext{
+    text-align: center;
+}
+#thirdexplore{
+    width: 78vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#Arrowdown{
+    width: 92px; height: 92px;
+}
+#thirdexplorepic{
+    width: 472px;
+    margin-right: 10vw;
+}
+#thirdexploretext{
+    text-align: center;
+}
+/*End of Explorepart*/
+/*Thisisthem*/
+#Thisisthem{
+    height: 59vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#Thisisthemtext{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 10px;
+}
+/*End of Thisisthem*/
+/* Them*/
+#Yana-them{
+    width: 98vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+#yanapic{
+    width: 309px;
+    margin-right:35vh;
+}
+#yana-description{
+    text-align: left;
+    line-height: 2.5;
+}
+#yanadescribe{
+    width: 75vw;
+    height: 50vh;
+    padding-left: 25vh;
+    padding-right: 24vh;
+    
+}
+#yanadescribetext{
+    
+    text-align: center;
+}
+#kaka-them{
+    width: 98vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+#kakapic{
+    width: 309px;
+    margin-right:35vh;
+}
+#kaka-description{
+    text-align: left;
+    line-height: 2.5;
+}
+#kakadescribe{
+    width: 75vw;
+    height: 50vh;
+    padding-left: 25vh;
+    padding-right: 24vh;
+    
+}
+#kakadescribetext{
+    
+    text-align: center;
+}
+#nell-them{
+    width: 95vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+#nellpic{
+    width: 346px;
+    margin-right:35vh;
+}
+#nell-description{
+    text-align: left;
+    line-height: 2.5;
+}
+#nelldescribe{
+    width: 75vw;
+    height: 50vh;
+    padding-left: 25vh;
+    padding-right: 24vh;
+    
+}
+#nelldescribetext{
+    text-align: center;
+}
+#me-them{
+    width: 93vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+#mepic{
+    width: 388px;
+    margin-right:35vh;
+}
+#me-description{
+    text-align: left;
+    line-height: 2.5;
+}
+#medescribe{
+    width: 75vw;
+    height: 50vh;
+    padding-left: 25vh;
+    padding-right: 24vh;
+    
+}
+#medescribetext{
+    text-align: center;
+}
+/*End of them*/
+/* Memories */
+#Memoriesstarting{
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30vh;
+}
+#memoriesbig{
+    font-weight: bolder;
+    font-size: 64px;
+    letter-spacing: 10px;
+}
+#memoriestext{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+#firstmemories{
+    height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#firstmemoriespic{
+    width: 500px;
+    margin-left: 10vw;
+}
+#firstmemoriestext{
+    text-align: center;
+}
+#secondmemories{
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#secondmemoriespic{
+    width: 380px;
+}
+#secondmemoriestext{
+    text-align: center;
+    margin-left: 15vw;
+}
+#thirdmemories{
+    height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#thirdmemoriespic{
+    width: 600px;
+    margin-left: 10vw;
+}
+#thirdmemoriestext{
+    text-align: center;
+}
+#fourthmemories{
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#fourthmemoriespic{
+    width: 380px;
+}
+#fourthmemoriestext{
+    text-align: center;
+    margin-left: 15vw;
+}
+#fifthmemories{
+    height: 60vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#fifthmemoriespic{
+    width: 600px;
+    margin-left: 10vw;
+}
+#fifthmemoriestext{
+    text-align: center;
+}
+#sixmemories{
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 81vw;
+    padding-left: 25vh;
+    padding-right: 10vh;
+}
+#sixmemoriespic{
+    width: 500px;
+}
+#sixmemoriestext{
+    text-align: center;
+    margin-left: 15vw;
+}
+#sevenmemories{
+    height: 60vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#sevenmemoriespic{
+    width: 600px;
+    margin-left: 10vw;
+}
+#sevenmemoriestext{
+    text-align: center;
+}
+#eightmemories{
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#eightmemoriespic{
+    width: 600px;
+}
+#eightmemoriestext{
+    text-align: center;
+    margin-left: 10vw;
+}
+#ninememories{
+    height: 80vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-bottom: 15vh;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#ninememoriespic{
+    width: 600px;
+    margin-left: 10vw;
+}
+#ninememoriestext{
+    text-align: center;
+}
+#tenmemories{
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30vh;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#tenmemoriespic{
+    width: 600px;
+}
+#tenmemoriestext{
+    text-align: center;
+    margin-left: 10vw;
+}
+#elememories{
+    height: 70vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+}
+#elememoriespic{
+    width: 400px;
+    margin-left: 10vw;
+}
+#elememoriestext{
+    text-align: center;
+}
+/* End of memories */
+#morememories{
+    width: 75vw;
+    padding-left: 25vh;
+    padding-right: 24vh;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh;
+    padding-bottom: 10vh;
+}
+#morememoriestext{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+@media (max-width: 1303px){
+body{
+    background-color: black;
+    font-size: 16px;
+}
+#Container{
+    height: 10px;
+}
+}
+@media (max-width:1203px){
+    #THEBIG4img{
+        width: 352.5px;
+    }
+    #firstexplorepic{
+        width: 450px;
+        
+    }
+    #secondexplorepic{
+        width: 360px;
+    }
+    #thirdexplorepic{
+        width: 400px;
+    }
+    #yanapic{
+        width: 309px;
+        margin-right:28vh;
+    }
+    #kakapic{
+        width: 309px;
+        margin-right:28vh;
+    }
+    #nellpic{
+        width: 346px;
+        margin-right:28vh;
+    }
+    #mepic{
+        width: 388px;
+        margin-right:28vh;
+    }
+    #firstmemoriespic{
+        width: 400px;
+        margin-left: 10vw;
+    }
+    #secondmemoriespic{
+        width: 330px;
+    }
+    #secondmemoriestext{
+        margin-left: 15vw;
+    }
+    #thirdmemoriespic{
+        width: 500px;
+        margin-left: 10vw;
+    }
+    #fourthmemoriespic{
+        width: 380px;
+    }
+    #fourthmemoriestext{
+        margin-left: 15vw;
+    }
+    #fifthmemoriespic{
+        width: 450px;
+        margin-left: 10vw;
+    }
+    #sixmemoriespic{
+        width: 500px;
+    }
+    #sixmemoriestext{
+        margin-left: 15vw;
+    }
+    #sevenmemoriespic{
+        width: 450px;
+        margin-left: 10vw;
+    }
+    #eightmemoriespic{
+        width: 500px;
+    }
+    #eightmemoriestext{
+        margin-left: 10vw;
+    }
+    #ninememoriespic{
+        width: 450px;
+        margin-left: 10vw;
+    }
+    #tenmemoriespic{
+        width: 400px;
+    }
+    #tenmemoriestext{
+        margin-left: 10vw;
+    }
+    #elememoriespic{
+        width: 350px;
+        margin-left: 10vw;
+    }
+}
+@media (max-width:1061px){
+    body{
+        font-size: 14px;
+    }
+    #rightsidelanding{
+        padding-left: 10vh;
+    }
+    #THEBIG4img{
+        width: 300.5px;
+    }
+    #firstexplorepic{
+        width: 450px;
+        
+    }
+    #secondexplorepic{
+        width: 360px;
+    }
+    #thirdexplorepic{
+        width: 400px;
+    }
+    #yanapic{
+        width: 309px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #kakapic{
+        width: 309px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #nellpic{
+        width: 346px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #mepic{
+        width: 388px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #memoriesbig{
+        font-size: 55px;
+    }
+    #memoriestext{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    #firstmemoriespic{
+        width: 400px;
+        margin-left: 10vw;
+    }
+    #secondmemoriespic{
+        width: 330px;
+    }
+    #secondmemoriestext{
+        margin-left: 15vw;
+    }
+    #thirdmemoriespic{
+        width: 500px;
+        margin-left: 10vw;
+    }
+    #fourthmemoriespic{
+        width: 380px;
+    }
+    #fourthmemoriestext{
+        margin-left: 15vw;
+    }
+    #fifthmemoriespic{
+        width: 450px;
+        margin-left: 10vw;
+    }
+    #sixmemoriespic{
+        width: 500px;
+    }
+    #sixmemoriestext{
+        margin-left: 8vw;
+    }
+    #sevenmemoriespic{
+        width: 450px;
+        margin-left: 10vw;
+    }
+    #eightmemoriespic{
+        width: 500px;
+    }
+    #eightmemoriestext{
+        margin-left: 10vw;
+    }
+    #ninememoriespic{
+        width: 450px;
+        margin-left: 10vw;
+    }
+    #tenmemoriespic{
+        width: 400px;
+    }
+    #tenmemoriestext{
+        margin-left: 10vw;
+    }
+    #elememoriespic{
+        width: 350px;
+        margin-left: 10vw;
+    }
+}
+@media (max-width:961px){
+    body{
+        font-size: 12px;
+    }
+    #rightsidelanding{
+        padding-left: 10vh;
+    }
+    #THEBIG4img{
+        width: 300.5px;
+    }
+    #firstexplorepic{
+        width: 400px;
+        
+    }
+    #secondexplorepic{
+        width: 320px;
+    }
+    #thirdexplorepic{
+        width: 300px;
+    }
+    #yanapic{
+        width: 290px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #kakapic{
+        width: 290px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #nellpic{
+        width: 310px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #mepic{
+        width: 310px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #memoriesbig{
+        font-size: 55px;
+    }
+    #memoriestext{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    #firstmemoriespic{
+        width: 350px;
+        margin-left: 10vw;
+    }
+    #secondmemoriespic{
+        width: 290px;
+    }
+    #secondmemoriestext{
+        margin-left: 15vw;
+    }
+    #thirdmemoriespic{
+        width: 400px;
+        margin-left: 10vw;
+    }
+    #fourthmemoriespic{
+        width: 300px;
+    }
+    #fourthmemoriestext{
+        margin-left: 15vw;
+    }
+    #fifthmemoriespic{
+        width: 400px;
+        margin-left: 10vw;
+    }
+    #sixmemoriespic{
+        width: 400px;
+    }
+    #sixmemoriestext{
+        margin-left: 8vw;
+    }
+    #sevenmemoriespic{
+        width: 400px;
+        margin-left: 10vw;
+    }
+    #eightmemoriespic{
+        width: 430px;
+    }
+    #eightmemoriestext{
+        margin-left: 10vw;
+    }
+    #ninememoriespic{
+        width: 400px;
+        margin-left: 10vw;
+    }
+    #tenmemoriespic{
+        width: 350px;
+    }
+    #tenmemoriestext{
+        margin-left: 10vw;
+    }
+    #elememoriespic{
+        width: 330px;
+        margin-left: 10vw;
+    }
+}
+@media (max-width:801px){
+    #Arrowdown{
+        width: 50px;
+        height: 50px;
+    }
+    body{
+        font-size: 10px;
+    }
+    #rightsidelanding{
+        padding-left: 10vh;
+    }
+    #THEBIG4landingbig{
+        font-size: 55px;
+    }
+    #THEBIG4img{
+        width: 300.5px;
+    }
+    #firstexplore{
+        width: 90vw;
+    }
+    #firstexplorepic{
+        width: 400px;
+        
+    }
+    #secondexplore{
+        width: 90vw;
+    }
+    #secondexplorepic{
+        width: 320px;
+    }
+    #thirdexplore{
+        width: 90vw;
+    }
+    #thirdexplorepic{
+        width: 300px;
+    }
+    #yanapic{
+        width: 290px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #kakapic{
+        width: 290px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #nellpic{
+        width: 310px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #mepic{
+        width: 310px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #memoriesbig{
+        font-size: 55px;
+    }
+    #memoriestext{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    #firstmemoriespic{
+        width: 300px;
+        margin-left: 10vw;
+    }
+    #secondmemoriespic{
+        width: 250px;
+    }
+    #secondmemoriestext{
+        margin-left: 15vw;
+    }
+    #thirdmemoriespic{
+        width: 350px;
+        margin-left: 10vw;
+    }
+    #fourthmemoriespic{
+        width: 300px;
+    }
+    #fourthmemoriestext{
+        margin-left: 15vw;
+    }
+    #fifthmemoriespic{
+        width: 340px;
+        margin-left: 10vw;
+    }
+    #sixmemoriespic{
+        width: 350px;
+    }
+    #sixmemoriestext{
+        margin-left: 8vw;
+    }
+    #sevenmemoriespic{
+        width: 330px;
+        margin-left: 10vw;
+    }
+    #eightmemoriespic{
+        width: 400px;
+    }
+    #eightmemoriestext{
+        margin-left: 10vw;
+    }
+    #ninememoriespic{
+        width: 350px;
+        margin-left: 10vw;
+    }
+    #tenmemoriespic{
+        width: 300px;
+    }
+    #tenmemoriestext{
+        margin-left: 10vw;
+    }
+    #elememoriespic{
+        width: 300px;
+        margin-left: 10vw;
+    }
+}
+@media (max-width:687px){
+    body{
+        font-size: 9px;
+    }
+    #rightsidelanding{
+        padding-left: 10vh;
+    }
+    #THEBIG4landingbig{
+        font-size: 45px;
+    }
+    #THEBIG4img{
+        width: 250.5px;
+    }
+    #firstexplore{
+        width: 90vw;
+    }
+    #firstexplorepic{
+        width: 350px;   
+    }
+    #secondexplore{
+        width: 90vw;
+    }
+    #secondexplorepic{
+        width: 280px;
+    }
+    #thirdexplore{
+        width: 90vw;
+    }
+    #thirdexplorepic{
+        width: 250px;
+    }
+    #yanapic{
+        width: 200px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #kakapic{
+        width: 200px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #nellpic{
+        width: 210px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #mepic{
+        width: 210px;
+        margin-right:20vh;
+        margin-left: 20vh;
+    }
+    #memoriesbig{
+        font-size: 40px;
+    }
+    #memoriestext{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    #firstmemoriespic{
+        width: 250px;
+        margin-left: 10vw;
+    }
+    #secondmemoriespic{
+        width: 200px;
+    }
+    #secondmemoriestext{
+        margin-left: 15vw;
+    }
+    #thirdmemoriespic{
+        width: 300px;
+        margin-left: 10vw;
+    }
+    #fourthmemoriespic{
+        width: 250px;
+    }
+    #fourthmemoriestext{
+        margin-left: 15vw;
+    }
+    #fifthmemoriespic{
+        width: 300px;
+        margin-left: 10vw;
+    }
+    #sixmemoriespic{
+        width: 300px;
+    }
+    #sixmemoriestext{
+        margin-left: 8vw;
+    }
+    #sevenmemoriespic{
+        width: 300px;
+        margin-left: 10vw;
+    }
+    #eightmemoriespic{
+        width: 300px;
+    }
+    #eightmemoriestext{
+        margin-left: 10vw;
+    }
+    #ninememoriespic{
+        width: 290px;
+        margin-left: 10vw;
+    }
+    #tenmemoriespic{
+        width: 280px;
+    }
+    #tenmemoriestext{
+        margin-left: 10vw;
+    }
+    #elememoriespic{
+        width: 280px;
+        margin-left: 10vw;
+    }
+}
+@media (max-width:541px){
+    #Arrowdown{
+        width: 50px;
+        height: 50px;
+    }
+    body{
+        font-size: 8px;
+    }
+    #rightsidelanding{
+        padding-left: 10vh;
+    }
+    #THEBIG4landingbig{
+        font-size: 30px;
+    }
+    #THEBIG4img{
+        width: 200.5px;
+    }
+    #firstexplore{
+        width: 90vw;
+    }
+    #firstexplorepic{
+        width: 300px;
+        
+    }
+    #secondexplore{
+        width: 90vw;
+    }
+    #secondexplorepic{
+        width: 240px;
+    }
+    #thirdexplore{
+        width: 90vw;
+    }
+    #thirdexplorepic{
+        width: 200px;
+    }
+    #yanapic{
+        width: 180px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #kakapic{
+        width: 180px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #nellpic{
+        width: 180px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #mepic{
+        width: 180px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #memoriesbig{
+        font-size: 30px;
+    }
+    #memoriestext{
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+    #firstmemoriespic{
+        width: 200px;
+        margin-left: 10vw;
+    }
+    #secondmemoriespic{
+        width: 150px;
+    }
+    #secondmemoriestext{
+        margin-left: 15vw;
+    }
+    #thirdmemoriespic{
+        width: 250px;
+        margin-left: 10vw;
+    }
+    #fourthmemoriespic{
+        width: 250px;
+    }
+    #fourthmemoriestext{
+        margin-left: 15vw;
+    }
+    #fifthmemoriespic{
+        width: 250px;
+        margin-left: 10vw;
+    }
+    #sixmemoriespic{
+        width: 250px;
+    }
+    #sixmemoriestext{
+        margin-left: 8vw;
+    }
+    #sevenmemoriespic{
+        width: 250px;
+        margin-left: 10vw;
+    }
+    #eightmemoriespic{
+        width: 250px;
+    }
+    #eightmemoriestext{
+        margin-left: 10vw;
+    }
+    #ninememoriespic{
+        width: 250px;
+        margin-left: 10vw;
+    }
+    #tenmemoriespic{
+        width: 250px;
+    }
+    #tenmemoriestext{
+        margin-left: 10vw;
+    }
+    #elememoriespic{
+        width: 220px;
+        margin-left: 10vw;
+    }
+    #morememoriestext{
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+}
+@media (max-width:450px){
+    #Arrowdown{
+        width: 50px;
+        height: 50px;
+    }
+    body{
+        font-size: 6px;
+    }
+    #rightsidelanding{
+        padding-left: 10vh;
+    }
+    #THEBIG4landingbig{
+        font-size: 20px;
+    }
+    #THEBIG4img{
+        width: 150.5px;
+    }
+    #firstexplore{
+        width: 90vw;
+    }
+    #firstexplorepic{
+        width: 200px;
+        
+    }
+    #secondexplore{
+        width: 90vw;
+    }
+    #secondexplorepic{
+        width: 150px;
+    }
+    #thirdexplore{
+        width: 90vw;
+    }
+    #thirdexplorepic{
+        width: 150px;
+    }
+    #Thisisthemtext{
+        font-size: 20px;
+    }
+    #yanapic{
+        width: 150px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #kakapic{
+        width: 150px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #nellpic{
+        width: 150px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #mepic{
+        width: 150px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #memoriesbig{
+        font-size: 30px;
+    }
+    #memoriestext{
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+    #firstmemoriespic{
+        width: 150px;
+        margin-left: 10vw;
+    }
+    #secondmemoriespic{
+        width: 150px;
+    }
+    #secondmemoriestext{
+        margin-left: 15vw;
+    }
+    #thirdmemoriespic{
+        width: 180px;
+        margin-left: 10vw;
+    }
+    #fourthmemoriespic{
+        width: 150px;
+    }
+    #fourthmemoriestext{
+        margin-left: 15vw;
+    }
+    #fifthmemoriespic{
+        width: 200px;
+        margin-left: 10vw;
+    }
+    #sixmemoriespic{
+        width: 200px;
+    }
+    #sixmemoriestext{
+        margin-left: 8vw;
+    }
+    #sevenmemoriespic{
+        width: 200px;
+        margin-left: 10vw;
+    }
+    #eightmemoriespic{
+        width: 200px;
+    }
+    #eightmemoriestext{
+        margin-left: 10vw;
+    }
+    #ninememoriespic{
+        width: 200px;
+        margin-left: 10vw;
+    }
+    #tenmemoriespic{
+        width: 200px;
+    }
+    #tenmemoriestext{
+        margin-left: 10vw;
+    }
+    #elememoriespic{
+        width: 200px;
+        margin-left: 10vw;
+    }
+    #morememoriestext{
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+}
+@media (max-width:402px){
+    #Arrowdown{
+        width: 30px;
+        height: 30px;
+    }
+    #nav-thebig4{
+        font-size: 3px;
+        letter-spacing: 2px;
+    }
+    #landingcontent{
+        width: 120vw;
+    }
+    body{
+        font-size: 4px;
+    }
+    #rightsidelanding{
+        padding-left: 10vh;
+    }
+    #THEBIG4landingbig{
+        font-size: 10px;
+    }
+    #THEBIG4img{
+        width: 150.5px;
+    }
+    #firstexplore{
+        width: 115vw;
+    }
+    #firstexplorepic{
+        width: 200px;
+        
+    }
+    #secondexplore{
+        width: 115vw;
+    }
+    #secondexplorepic{
+        width: 150px;
+    }
+    #thirdexplore{
+        width: 115vw;
+    }
+    #thirdexplorepic{
+        width: 150px;
+    }
+    #Thisisthem{
+        width: 85vw;
+    }
+    #Thisisthemtext{
+        font-size: 15px;
+    }
+    #Yana-them{
+        width: 120vw;
+        margin-bottom: 5vh;
+    }
+    #yanadescribe{
+        width: 85vw;
+    }
+    #Kaka-them{
+        width: 120vw;
+        margin-bottom: 5vh;
+    }
+    #kakadescribe{
+        width: 85vw;
+    }
+    #nell-them{
+        width: 120vw;
+        margin-bottom: 5vh;
+    }
+    #nelldescribe{
+        width: 85vw;
+    }
+    #me-them{
+        width: 120vw;
+        margin-bottom: 5vh;
+    }
+    #medescribe{
+        width: 85vw;
+    }
+    #yanapic{
+        width: 150px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #kakapic{
+        width: 150px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #nellpic{
+        width: 150px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #mepic{
+        width: 150px;
+        margin-right:10vh;
+        margin-left: 20vh;
+    }
+    #Memoriesstarting{
+        width: 85vw;
+    }
+    #memoriesbig{
+        font-size: 30px;
+    }
+    #memoriestext{
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+    #firstmemories{
+        width: 85vw;
+    }
+    #secondmemories{
+        width: 85vw;
+    }
+    #thirdmemories{
+        width: 85vw;
+    }
+    #fourthmemories{
+        width: 85vw;
+    }
+    #fifthmemories{
+        width: 85vw;
+    }
+    #sixmemories{
+        width: 85vw;
+    }
+    #sevenmemories{
+        width: 85vw;
+    }
+    #eightmemories{
+        width: 85vw;
+    }
+    #ninememories{
+        width: 85vw;
+    }
+    #tenmemories{
+        width: 85vw;
+    }
+    #elememories{
+        width: 85vw;
+    }
+    #firstmemoriespic{
+        width: 150px;
+        margin-left: 10vw;
+    }
+    #secondmemoriespic{
+        width: 120px;
+    }
+    #secondmemoriestext{
+        margin-left: 15vw;
+    }
+    #thirdmemoriespic{
+        width: 150px;
+        margin-left: 10vw;
+    }
+    #fourthmemoriespic{
+        width: 150px;
+    }
+    #fourthmemoriestext{
+        margin-left: 15vw;
+    }
+    #fifthmemoriespic{
+        width: 150px;
+        margin-left: 10vw;
+    }
+    #sixmemoriespic{
+        width: 150px;
+    }
+    #sixmemoriestext{
+        margin-left: 8vw;
+    }
+    #sevenmemoriespic{
+        width: 150px;
+        margin-left: 10vw;
+    }
+    #eightmemoriespic{
+        width: 150px;
+    }
+    #eightmemoriestext{
+        margin-left: 10vw;
+    }
+    #ninememoriespic{
+        width: 150px;
+        margin-left: 10vw;
+    }
+    #tenmemoriespic{
+        width: 150px;
+    }
+    #tenmemoriestext{
+        margin-left: 10vw;
+    }
+    #elememoriespic{
+        width: 140px;
+        margin-left: 10vw;
+    }
+    #morememoriestext{
+        font-size: 5px;
+        letter-spacing: 2px;
+    }
+}
